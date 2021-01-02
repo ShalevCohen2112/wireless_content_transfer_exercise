@@ -268,7 +268,7 @@ ProgressBar progressBar;
             options.add("Source");
             options.add("target");
             AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-            builder.setTitle("Select a group");
+            builder.setTitle("");
             builder.setItems(options.toArray(new String[2]), (dialog, which) -> {
                 MessageWrapper normalMessage = new MessageWrapper();
                 normalMessage.setMessageType(MessageWrapper.MessageType.NORMAL);
